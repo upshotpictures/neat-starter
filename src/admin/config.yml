@@ -30,7 +30,7 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
-    label: "pages"
+  - label: "pages"
     name: "pages"
     folder: "src/posts"
     create: true
