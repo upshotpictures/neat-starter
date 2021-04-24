@@ -31,14 +31,6 @@ collections:
         create: true
         options: ["Tags", "created", "from", "config.yml"]
 
-  - name: infoPages
-    label: Info Page
-    editor:
-      preview: true
-    folder: content/infoPages
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    
-
   - label: "Settings"
     name: "settings"
     editor:
