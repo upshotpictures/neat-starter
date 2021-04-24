@@ -12,7 +12,7 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "pages"
+  - label: "pagesone"
     name: "pages"
     folder: "src/posts"
     create: true
@@ -33,7 +33,7 @@ collections:
   - name: pagestwo
     label: Pagestow
     label_singular: 'Page'
-    folder: content/pages
+    folder: src/pages
     create: true
     # adding a nested object will show the collection folder structure
     nested:
