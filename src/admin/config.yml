@@ -30,8 +30,8 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
-  - name: pagestwo
-    label: Pagestow
+  - name: pages
+    label: the pages
     label_singular: 'Page'
     folder: src/pages
     create: true
